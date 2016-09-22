@@ -24,5 +24,11 @@ public class HelloController {
         return "hello";
 
     }
+    
+    @RequestMapping("/multi_file")
+    public String multiFileUpload() {
+        System.out.println("多文件上传...");
+        return "multiFile";
+    }
 
 }
